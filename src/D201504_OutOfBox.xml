@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OPENROAD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><APPLICATION name="D201504_OutOfBox"><included_apps><row><appname>core</appname><version>-1</version><imgfilename>core.plb</imgfilename></row><row_class>inclapp</row_class></included_apps></APPLICATION><COMPONENT name="INSTRUCTIONS" xsi:type="scriptsource"><script><![CDATA[/*
+**	New Frame AirportMaintenance
+*/
+Required components:
+	none
+Required included applications:
+	none
+Other requirements:
+	none
+		
+Demo:
+	w4gldev runimage workbench.img -Tall -/appflags profile=or62demos application=D201504_OutOfBox
+
+	Create frame AirportMaintenance using table_editor template
+		A table-selection dialog appears
+	Specify “airport” table from the table list and click OK
+		A tablefield-based display is created, whose columns correspond to the
+		airport table’s columns
+	Save the frame
+	Run the frame
+	Choose File | Open
+		The table populates with all the data from the database airport table
+	Select one or many records
+		Selected records have red text, and the current row is marked with
+		a red asterisk
+	Scroll the data
+	Insert a row (using the File menu or the toolbar icons)
+	Type new data into the added row
+	Save the new record
+	Close and reopen the frame and choose File | Open and scroll if necessary to
+	confirm that the record you created is in the database
+		The added record is there
+	Delete the record and save
+	Close and reopen the frame and choose File | Open and scroll if necessary to
+	confirm that the record you deleted is no longer in the database
+		The added record is gone
+
+Cleanup:		
+	Delete the frame you created
+]]></script></COMPONENT></OPENROAD>

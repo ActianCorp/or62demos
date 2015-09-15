@@ -1,0 +1,2337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OPENROAD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><APPLICATION name="D201504_FrequentFlyer"><included_apps><row><appname>core</appname><version>-1</version><imgfilename>core.plb</imgfilename></row><row_class>inclapp</row_class></included_apps></APPLICATION><COMPONENT name="ExtendDemodbDatabase" xsi:type="framesource"><extension><row xsi:type="choicelist"><choiceitems><row><enumdisplay>violadamore</enumdisplay><enumtext>violadamore</enumtext><enumvalue>1</enumvalue><enumsubtext><row><![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjI
+yMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACbAH8DAS
+IAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFB
+AQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0
+NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqK
+jpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8
+QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECA
+xEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNE
+RUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKm
+qsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAx
+EAPwDuMAdqAAOlOAyaCgxU3MLChSelSHIXAPNOhCqhJIpWeOOMySMqgd2PH5VEppFxg2UpI5n4H
+T1zQmnsp3SvtH5mg65pyttL73wTljhV98VgXXitr2YCJAkW7ap3dff+dYuvLaJ0RoLqdFHNY6bG
+yhRuJJ4+ZiSazrvxIUU/6E7p0OX5H4ZFcVqepSXvmkTuSnO3dxWfZeIrgIqPIzqOAG5IHpnvWVm
+9TWyO5W8gulJjV0I5KA4Ye+Dwams3EkoRsYP3WP8AFj+RrkJ7i4Rory1lO09cUsutzJAJFycEMN
+p6f5/rTXMtROKZ6D9mTaGBU/Q0ghXtXJ6f4sT5i4JV+Rk469f1rYgu1ubcSwOoTPLb8EH61sq7W
+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]]></row><row_class>stringobject</row_class></enumsubtext></row><row><enumdisplay>sampoole</enumdisplay><enumtext>sampoole</enumtext><enumvalue>2</enumvalue><enumsubtext><row><![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjI
+yMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACQAJADAS
+IAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFB
+AQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0
+NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqK
+jpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8
+QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECA
+xEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNE
+RUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKm
+qsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAx
+EAPwD3+iiigAoqO4njtoHmlOEUc1hyeJACSvlqOysCT+hqZSUdxpNm87rGhdyAo6k1i3XiS3gBI
+Xgf3jXP6z4lklRVAGB/CpwM1yl1qbSEvKR/u5qPaX2LUO56CnioTgGBEI77s0j+KpApKwxsRxjk
+V5tDqk7dCFiXgKODViO5uZW4c7R0DUryK5EeiQeKSzDzYFUd8HFa1prFjeIWinUYODuOMV5XIlw
+ZQdz7v73UVURLyJ3ZJWxnJUcZqk2DpntgIZQQQQeQR3pa830fxbcWIjgkIlU8FXJG36V29jrdjf
+4EUhVicBHGDVqSZm4tGjRRRTJCiiigAooooAKZNKlvBJNK22ONS7HGcADJp9eefFLxMmn6T/Zdv
+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
+DFaw8TWToGSKd/YBc/zqlOLFPBV4fFE/9k=]]></row><row_class>stringobject</row_class></enumsubtext></row><row><enumdisplay>florencenightingale</enumdisplay><enumtext>florencenightingale</enumtext><enumvalue>3</enumvalue><enumsubtext><row><![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjI
+yMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACQAJADAS
+IAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFB
+AQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0
+NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqK
+jpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8
+QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECA
+xEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNE
+RUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKm
+qsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAx
+EAPwD3+iiigAooooAKKK87+J/xNg8FWP2KxMc+tzr+7jJysIP8b/0H9OoB2mr67pWgWbXerahb2
+cIBIaZwC2BkhR1Y+wyTWbB488L3KW7w6xBItwu6MqGwR78cfQ4r5itbLVfF+rtf6vfySzONzzyn
+dtA6YHYeld/FbWPhbw4+qSo7xgDar8ec/vj7ooYI9J1z4reGtDRHdru6VmZS1vEAARjgFyu7Of4
+c9DnFZel/HLwnqWpxWTx6hYrK20XN5GixKe25g5x9SMDvivnPWNb1DxFffabuTecEJGgwsa56Ae
+lb3h3wrPOUmuVTyCAdsn3WHp7fWnZJah1PqmTXtHis0u5NWsUtnYKszXKBGJ6ANnGauxSxzwpND
+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
+e2TXWwTpcRCSM5B7HqD6GmmJo/9k=]]></row><row_class>stringobject</row_class></enumsubtext></row><row_class>choicedetail</row_class></choiceitems></row><row_class>OBJECT</row_class></extension><taggedvalues><row><name>storeindex_images</name><value><![CDATA[1]]></value></row><row_class>taggedvalue</row_class></taggedvalues><script><![CDATA[/*
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+INITIALIZE =
+  DECLARE
+  Split			= PROCEDURE RETURNING ARRAY OF StringObject;
+  ENDDECLARE
+
+
+/*
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**	Revert to the original demodb contents
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+ON CLICK RevertBtn =
+  DECLARE
+  ct			= integer NOT NULL;
+  existing_columns	= ARRAY OF StringObject;
+  coldef		= ChoiceDetail DEFAULT NULL;
+  name			= varchar(32) NOT NULL;
+  query			= varchar(2000) NOT NULL;
+  ENDDECLARE
+BEGIN
+SELECT count(*) AS ct FROM iitables WHERE table_name = 'flight';
+
+IF ct > 0 THEN
+  DROP TABLE flight;
+ENDIF;
+
+DELETE FROM user_profile WHERE up_id > 200;
+
+ct = 1; existing_columns.Clear();
+SELECT DISTINCT column_name AS existing_columns[ct].Value
+ FROM iicolumns 
+ WHERE table_name = 'user_profile'
+ BEGIN
+ ct = ct + 1;
+ END;
+
+FOR ct = 1 TO FIELD(user_profile_columnlist).ValueList.ChoiceItems.LastRow DO
+  coldef = FIELD(user_profile_columnlist).ValueList.ChoiceItems[ct];
+  name = coldef.EnumText;
+  IF existing_columns.Find('value', value=name) != ER_OK THEN CONTINUE; ENDIF;    
+
+  query = 'ALTER TABLE user_profile DROP COLUMN ' + :name  + ' RESTRICT';
+  EXECUTE IMMEDIATE :query;
+ENDFOR;
+
+COMMIT;
+END;
+
+
+/*
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**	Extend the demodb database to have more realistic data and relationships
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+ON CLICK ExtendDemodbBtn =
+  DECLARE
+  dba			= varchar(32) NOT NULL;
+  dbadmin		= varchar(32) NOT NULL;
+  username		= varchar(32) NOT NULL;
+  name			= varchar(32) NOT NULL;
+  datatype		= varchar(32) NOT NULL;
+  ct			= integer NOT NULL;
+  application		= AppSource DEFAULT NULL;
+  coldef		= ChoiceDetail DEFAULT NULL;
+  user_profile_columns	= ClassSource DEFAULT NULL;
+  flight_columns	= ClassSource DEFAULT NULL;
+  existing_columns	= ARRAY OF StringObject;
+  existing_tables	= ARRAY OF StringObject;
+  query			= varchar(2000) NOT NULL;
+  tokens		= ARRAY OF StringObject;
+  addresses		= ARRAY OF ChoiceDetail;
+  flights		= ARRAY OF ChoiceDetail;
+  id			= integer NOT NULL;
+  addeduser_indx	= integer NOT NULL;
+  fk_list		= ChoiceList;
+
+  image			= LongByteObject default null;
+  store			= CompSource default null;
+  store#		= StringHashTable default null;
+  itemlist		= ChoiceList default null;
+  cvr			= LongItemStore;
+  i			= integer not null;
+  rc			= integer not null;
+  indx			= integer not null;
+  citem			= ChoiceDetail default null;
+  searchstring		= varchar(256) not null;
+  ENDDECLARE
+BEGIN
+/*
+**  Reference key items
+*/
+addresses = FIELD(addresslist).ValueList.ChoiceItems;
+
+application = CurFrame.ObjectSource.ParentApplication;
+
+/*
+**  Clear the decks
+*/
+ROLLBACK;
+
+/*
+**  Ensure we are connected to the demodb database
+*/
+IF CurFrame.DbSession.Database NOT LIKE '%demo%' THEN
+  MESSAGE 'ERROR: CurFrame.DbSession.Database NOT LIKE %demo%';
+  RETURN ER_FAIL;
+ENDIF;
+
+/*
+**  Ensure we have sufficient privilege to proceed
+*/
+SELECT dbmsinfo('dba') AS dba, dbmsinfo('username') AS username,
+	dbmsinfo('db_admin') AS dbadmin;
+IF dba = username THEN 
+ELSEIF dbadmin = 'Y' THEN
+  SET SESSION AUTHORIZATION :dba;
+ELSE
+  MESSAGE 'ERROR: Do not have sufficient privilege to proceed' ;
+  RETURN ER_FAIL;
+ENDIF;
+
+/*
+**  Extend the user_profile table
+*/
+ct = 1; existing_columns.Clear();
+SELECT DISTINCT column_name AS existing_columns[ct].Value
+ FROM iicolumns 
+ WHERE table_name = 'user_profile'
+ BEGIN
+ ct = ct + 1;
+ END;
+
+FOR ct = 1 TO FIELD(user_profile_columnlist).ValueList.ChoiceItems.LastRow DO
+  coldef = FIELD(user_profile_columnlist).ValueList.ChoiceItems[ct];
+  name = coldef.EnumText; datatype = coldef.EnumDisplay;
+  IF existing_columns.Find('value', value=name) = ER_OK THEN CONTINUE; ENDIF;    
+
+  query = 'ALTER TABLE user_profile ADD COLUMN ' + :name  + ' ' + :datatype + 
+	' WITH DEFAULT';
+  EXECUTE IMMEDIATE :query;
+ENDFOR;
+
+/*
+**  Get any images stored in this frame that are to be used as data
+*/
+store = curframe.ObjectSource;
+itemlist = cvr.ListStoredItems(store=store, type='images');
+store# = itemlist.ClientData;
+
+/*
+**  Transfer them to the corresponding records in the addresses choicelist
+*/
+for i = 1 to itemlist.ChoiceItems.LastRow do
+  citem = itemlist.ChoiceItems[i].Duplicate();
+
+  if citem.EnumText like '%nigh%' then
+    searchstring = '%nigh%';
+  elseif citem.EnumText like '%poole%' then
+    searchstring = '%poole%';
+  elseif citem.EnumText like '%damore%' then
+    searchstring = '%damore%';
+  endif;
+
+  rc = addresses.Find(attributename='enumtext',
+    searchstring=searchstring, rownumber=Byref(indx));
+
+  if rc != ER_OK then
+    continue;
+  endif;
+
+  addresses[indx].ClientData = store#.Find(key=citem.EnumText);
+endfor;
+
+/*
+**  Add user records (basic information only) to the user_profile table;
+**  Capture the key data for use in the flight table data
+*/
+FOR ct = 1 TO addresses.LastRow DO
+  tokens = Split(text=addresses[ct].EnumText, delimiter='|');
+  id = addresses[ct].EnumValue;
+  image = addresses[ct].ClientData;
+
+  INSERT INTO user_profile 
+	(up_id,up_last,up_first,up_email,up_airport)
+  VALUES
+	(id,tokens[1].Value,tokens[2].Value,tokens[3].Value,tokens[4].Value);
+
+  if image is not null then
+    image.UpdateInDb(query='update user_profile set up_image where up_id=' + varchar(:id));
+  endif;
+
+  fk_list.ChoiceItems[ct].EnumValue = id; 
+  fk_list.ChoiceItems[ct].EnumText = tokens[3].Value; 
+ENDFOR;
+
+/*
+**  Add address data to the user_profile table
+*/
+FOR ct = 1 TO addresses.LastRow DO
+  tokens = Split(text=addresses[ct].EnumDisplay, delimiter='|');
+  id = addresses[ct].EnumValue;
+
+  UPDATE user_profile
+   SET 	up_street = :tokens[1].Value,
+	up_town_or_city = :tokens[2].Value,
+	up_state_or_country = :tokens[3].Value,
+	up_postal_code = :tokens[4].Value,
+	up_telephone = :tokens[5].Value,
+	up_mobile = :tokens[6].Value
+   WHERE up_id = :id;
+
+ENDFOR;
+
+								/////commit;
+/*
+**  Create the flight table ..if it hasn't yet been created
+*/
+ct = 1;
+SELECT DISTINCT table_name AS existing_tables[ct].Value
+ FROM iitables 
+ WHERE table_owner != '$ingres'
+ BEGIN
+ ct = ct + 1;
+ END;
+
+IF existing_tables.Find('value', value='flight') = ER_OK THEN 
+ELSE
+
+  /*
+  **  Create the flight table
+  */
+  query = 'CREATE TABLE flight (';
+
+  FOR ct = 1 TO FIELD(flight_columnlist).ValueList.ChoiceItems.LastRow DO
+    coldef = FIELD(flight_columnlist).ValueList.ChoiceItems[ct];
+    name = coldef.EnumText; datatype = coldef.EnumDisplay;
+    query = query + HC_NEWLINE + :name  + ' ' + :datatype + ',';
+  ENDFOR;
+
+  query = query + HC_NEWLINE + 'primary key(fl_id),'; 
+  query = query + HC_NEWLINE + 'foreign key(fl_email) references user_profile,'; 
+  query = query + HC_NEWLINE + 'foreign key(fl_depart_from) references airport(ap_iatacode),'; 
+  query = query + HC_NEWLINE + 'foreign key(fl_arrive_to) references airport(ap_iatacode),'; 
+  query = Left(query,Length(query)-1);
+
+  query = query + HC_NEWLINE + ')';
+
+  EXECUTE IMMEDIATE :query;
+
+  query = 'MODIFY flight TO btree ON fl_user,fl_arrive_to,fl_depart_at';
+
+  EXECUTE IMMEDIATE :query;
+
+  /*
+  **  Add trip data to the flight table
+  */
+  flights = FIELD(flightlist).ValueList.ChoiceItems;
+  FOR ct = 1 TO flights.LastRow DO
+    tokens = Split(text=flights[ct].EnumDisplay, delimiter='|');
+
+    addeduser_indx = Int4(tokens[1].Value);
+    tokens[1].Value = varchar(fk_list.ChoiceItems[addeduser_indx].EnumValue);
+    tokens[2].Value = varchar(fk_list.ChoiceItems[addeduser_indx].EnumText);
+
+    INSERT INTO flight
+	(fl_user,fl_email,fl_trip,fl_depart_at,fl_id,fl_airline,fl_flight_num,fl_depart_from,fl_arrive_to,fl_arrive_at)
+    VALUES
+	(tokens[1].Value,tokens[2].Value,
+	 tokens[3].Value,tokens[4].Value,tokens[5].Value,tokens[6].Value,
+	 tokens[7].Value,tokens[8].Value,tokens[9].Value,tokens[10].Value);
+  ENDFOR;
+
+ENDIF;
+
+/*
+**  Ensure privilege is sufficient for our purposes, whoever we turn out to be
+*/
+GRANT ALL ON AIRLINE TO PUBLIC;
+GRANT ALL ON AIRPORT TO PUBLIC;
+GRANT ALL ON COUNTRY TO PUBLIC;
+GRANT ALL ON FLIGHT TO PUBLIC;
+GRANT ALL ON FLIGHT_DAY TO PUBLIC;
+GRANT ALL ON FULL_ROUTE TO PUBLIC;
+GRANT ALL ON ROUTE TO PUBLIC;
+GRANT ALL ON TZ TO PUBLIC;
+GRANT ALL ON USER_PROFILE TO PUBLIC;
+GRANT ALL ON VERSION TO PUBLIC;
+
+/*
+**  Commit
+*/
+COMMIT;
+
+END;
+
+
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//	Split a delimited string into an array of tokens
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PROCEDURE Split (
+
+  text		= varchar(2000) NOT NULL;
+  delimiter	= varchar(10) NOT NULL DEFAULT ' ';
+  rows 		= integer NOT NULL;
+
+  )=
+  DECLARE
+  tokens	= ARRAY OF StringObject;
+  loc 		= integer NOT NULL;
+  ct 		= integer NOT NULL;
+  token 	= varchar(256) NOT NULL;
+  ENDDECLARE
+BEGIN
+WHILE text != '' OR loc < Size(text) DO
+  loc = Locate(text,delimiter);
+  token = Left(text,loc-1);
+  WHILE token LIKE ' %' DO token = Shift(token,-1); ENDWHILE; //remove leading blanks
+  tokens[tokens.LastRow+1].Value = token;
+  text = Shift(text,-loc);
+ENDWHILE;
+
+IF rows > 0 THEN
+  FOR ct = tokens.LastRow+1 TO rows DO tokens.InsertRow(ct); ENDFOR;
+  FOR ct = tokens.LastRow DOWNTO rows+1 DO tokens.RemoveRow(ct); ENDFOR;
+ENDIF;
+
+RETURN tokens;
+END;
+]]></script><datatype>integer</datatype><templatename>standard</templatename><hasstatusbar>1</hasstatusbar><isautosized>1</isautosized><isgridon>1</isgridon><startmenu><bgcolor>2</bgcolor><fgcolor>1</fgcolor><designbias>16384</designbias><trimbias>16384</trimbias><updatebias>16384</updatebias><querybias>16384</querybias><readbias>16384</readbias><user1bias>16384</user1bias><user2bias>16384</user2bias><user3bias>16384</user3bias></startmenu><topform><bgcolor>70</bgcolor><fgcolor>1</fgcolor><width>24000</width><height>24000</height><designbias>16</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>16</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinewidth>0</outlinewidth><isresizebounded>1</isresizebounded><childfields><row xsi:type="rectangleshape"><datatype>i4</datatype><defaultvalue>1</defaultvalue><bgcolor>26</bgcolor><fgcolor>72</fgcolor><xleft>1313</xleft><ytop>73</ytop><width>4313</width><height>1698</height><designbias>3</designbias><trimbias>256</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><fieldstyle>0</fieldstyle><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><linewidth>0</linewidth></row><row xsi:type="buttonfield"><name>extenddemodbbtn</name><datatype>i4</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>73</xleft><ytop>146</ytop><width>1052</width><height>177</height><designbias>3</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><textlabel><![CDATA[Extend Demodb]]></textlabel></row><row xsi:type="optionfield"><name>addresslist</name><datatype>integer</datatype><defaultvalue>3</defaultvalue><bgcolor>70</bgcolor><fgcolor>86</fgcolor><xleft>1385</xleft><ytop>146</ytop><width>4188</width><height>208</height><designbias>2</designbias><trimbias>256</trimbias><updatebias>1024</updatebias><querybias>1024</querybias><readbias>1024</readbias><user1bias>1024</user1bias><user2bias>1024</user2bias><user3bias>1024</user3bias><fieldstyle>0</fieldstyle><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><valuelist><choiceitems><row><enumdisplay>51,Bath Road|Slough|UK|SL1 3UF|(44)01753559500|07777 7777777</enumdisplay><enumtext>nightingale|florence|flo.nigh@crimea.com|LHR</enumtext><enumvalue>201</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>33,Floral Gardens|Victoria|BC,Canada|BC65330|noyb|</enumdisplay><enumtext>damore|viola|orevi@lso.cocoa|LHR</enumtext><enumvalue>202</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>Camelot,33,Acacia Road|Solihull,Birmingham|UK|SO2 7RS|(44)01984 055055|</enumdisplay><enumtext>poole|sam|sample@ingres.com|LHR</enumtext><enumvalue>203</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row_class>choicedetail</row_class></choiceitems></valuelist><curenumindex>1</curenumindex><typeface>0</typeface><typesize>8</typesize></row><row xsi:type="optionfield"><name>flightlist</name><datatype>integer</datatype><defaultvalue>3</defaultvalue><bgcolor>70</bgcolor><fgcolor>86</fgcolor><xleft>1385</xleft><ytop>438</ytop><width>4021</width><height>208</height><designbias>2</designbias><trimbias>256</trimbias><updatebias>1024</updatebias><querybias>1024</querybias><readbias>1024</readbias><user1bias>1024</user1bias><user2bias>1024</user2bias><user3bias>1024</user3bias><fieldstyle>0</fieldstyle><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><valuelist><choiceitems><row><enumdisplay>1|?|1|11-oct-2006 12:26:00|1|AAL|4682|LHR|ANW|11-oct-2006 18:19:00</enumdisplay><enumtext>u1f1&gt;</enumtext><enumvalue>11</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>1|?|1|16-oct-2006 17:03:00|2|AAL|4683|ANW|LHR|16-oct-2006 23:29:00</enumdisplay><enumtext>u1f1&lt;</enumtext><enumvalue>11</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>1|?|2|21-apr-2007 12:26:00|3|AAL|4682|LHR|ANW|21-apr-2007 18:19:00</enumdisplay><enumtext>u1f2&gt;</enumtext><enumvalue>12</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>1|?|2|25-apr-2007 17:03:00|4|AAL|4683|ANW|LHR|25-apr-2007 23:29:00</enumdisplay><enumtext>u1f2&lt;</enumtext><enumvalue>12</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>1|?|3|31-may-2007 12:26:00|5|AAL|4682|LHR|ANW|31-may-2007 18:19:00</enumdisplay><enumtext>u1f3&gt;</enumtext><enumvalue>13</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>1|?|3|05-jun-2007 17:03:00|6|AAL|4683|ANW|LHR|05-jun-2007 23:29:00</enumdisplay><enumtext>u1f3&lt;</enumtext><enumvalue>13</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>2|?|1|01-feb-2007 11:19:00|7|BAW|2289|LHR|SYD|03-feb-2007 12:51:00</enumdisplay><enumtext>u2f1&gt;</enumtext><enumvalue>21</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>2|?|1|14-feb-2007 14:00:00|8|BAW|2290|SYD|LHR|14-feb-2007 15:17:00</enumdisplay><enumtext>u2f1&lt;</enumtext><enumvalue>21</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>2|?|2|11-mar-2007 11:19:00|9|BAW|2289|LHR|SYD|13-mar-2007 12:51:00</enumdisplay><enumtext>u2f2&gt;</enumtext><enumvalue>22</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>2|?|2|19-mar-2007 14:00:00|10|BAW|2290|SYD|LHR|19-mar-2007 15:17:00</enumdisplay><enumtext>u2f2&lt;</enumtext><enumvalue>22</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>2|?|3|03-apr-2007 09:10:00|11|VIR|2253|LHR|JFK|03-apr-2007 15:14:00</enumdisplay><enumtext>u2f3&gt;</enumtext><enumvalue>23</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>2|?|3|08-apr-2007 16:25:00|12|VIR|2254|JFK|LHR|08-apr-2007 21:18:00</enumdisplay><enumtext>u2f3&lt;</enumtext><enumvalue>23</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>3|?|1|04-jan-2007 09:10:00|13|VIR|2281|LHR|SFO|04-jan-2007 16:22:00</enumdisplay><enumtext>u3f1&gt;</enumtext><enumvalue>31</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>3|?|1|09-jan-2007 11:05:00|14|VIR|2282|SFO|LHR|09-jan-2007 20:22:00</enumdisplay><enumtext>u3f1&lt;</enumtext><enumvalue>31</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>3|?|2|17-jan-2007 10:14:00|15|SAA|5892|LHR|DUR|17-jan-2007 20:31:00</enumdisplay><enumtext>u3f2&gt;</enumtext><enumvalue>32</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>3|?|2|28-jan-2007 09:44:00|16|SAA|5893|DUR|LHR|28-jan-2007 18:22:00</enumdisplay><enumtext>u3f2&lt;</enumtext><enumvalue>32</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row_class>choicedetail</row_class></choiceitems></valuelist><curenumindex>1</curenumindex><typeface>0</typeface><typesize>8</typesize></row><row xsi:type="optionfield"><name>user_profile_columnlist</name><datatype>integer</datatype><defaultvalue>3</defaultvalue><bgcolor>70</bgcolor><fgcolor>86</fgcolor><xleft>1385</xleft><ytop>802</ytop><width>1333</width><height>208</height><designbias>2</designbias><trimbias>256</trimbias><updatebias>1024</updatebias><querybias>1024</querybias><readbias>1024</readbias><user1bias>1024</user1bias><user2bias>1024</user2bias><user3bias>1024</user3bias><fieldstyle>0</fieldstyle><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><valuelist><choiceitems><row><enumdisplay>varchar(65) not null</enumdisplay><enumtext>up_street</enumtext><enumvalue>1</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>varchar(32) not null</enumdisplay><enumtext>up_town_or_city</enumtext><enumvalue>2</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>varchar(32) not null</enumdisplay><enumtext>up_state_or_country</enumtext><enumvalue>3</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>varchar(32) not null</enumdisplay><enumtext>up_postal_code</enumtext><enumvalue>4</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>varchar(32) not null</enumdisplay><enumtext>up_telephone</enumtext><enumvalue>6</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>varchar(32) not null</enumdisplay><enumtext>up_mobile</enumtext><enumvalue>7</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row_class>choicedetail</row_class></choiceitems></valuelist><curenumindex>1</curenumindex><typeface>0</typeface><typesize>8</typesize></row><row xsi:type="optionfield"><name>flight_columnlist</name><datatype>integer</datatype><defaultvalue>3</defaultvalue><bgcolor>70</bgcolor><fgcolor>86</fgcolor><xleft>1385</xleft><ytop>1094</ytop><width>1396</width><height>208</height><designbias>2</designbias><trimbias>256</trimbias><updatebias>1024</updatebias><querybias>1024</querybias><readbias>1024</readbias><user1bias>1024</user1bias><user2bias>1024</user2bias><user3bias>1024</user3bias><fieldstyle>0</fieldstyle><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><valuelist><choiceitems><row><enumdisplay>integer not null</enumdisplay><enumtext>fl_user</enumtext><enumvalue>1</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>varchar(256) not null</enumdisplay><enumtext>fl_email</enumtext><enumvalue>2</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>integer not null</enumdisplay><enumtext>fl_trip</enumtext><enumvalue>3</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>date not null</enumdisplay><enumtext>fl_depart_at</enumtext><enumvalue>4</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>integer not null</enumdisplay><enumtext>fl_id</enumtext><enumvalue>5</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>varchar(32) not null</enumdisplay><enumtext>fl_airline</enumtext><enumvalue>6</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>varchar(32) not null</enumdisplay><enumtext>fl_flight_num</enumtext><enumvalue>7</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>varchar(32) not null</enumdisplay><enumtext>fl_depart_from</enumtext><enumvalue>8</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>varchar(32) not null</enumdisplay><enumtext>fl_arrive_to</enumtext><enumvalue>9</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumdisplay>date not null</enumdisplay><enumtext>fl_arrive_at</enumtext><enumvalue>10</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+0
+-1:
+0
+1
+2
+0
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row_class>choicedetail</row_class></choiceitems></valuelist><curenumindex>1</curenumindex><typeface>0</typeface><typesize>8</typesize></row><row xsi:type="optionfield"><name>idlist</name><datatype>integer</datatype><defaultvalue>3</defaultvalue><bgcolor>70</bgcolor><fgcolor>86</fgcolor><xleft>1385</xleft><ytop>1385</ytop><width>385</width><height>208</height><designbias>2</designbias><trimbias>256</trimbias><updatebias>1024</updatebias><querybias>1024</querybias><readbias>1024</readbias><user1bias>1024</user1bias><user2bias>1024</user2bias><user3bias>1024</user3bias><fieldstyle>0</fieldstyle><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><valuelist/><curenumindex>1</curenumindex><typeface>0</typeface><typesize>8</typesize></row><row xsi:type="buttonfield"><name>revertbtn</name><datatype>i4</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>73</xleft><ytop>510</ytop><width>1052</width><height>177</height><designbias>3</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><textlabel><![CDATA[Revert Demodb]]></textlabel></row><row_class>formfield</row_class></childfields><transparentcolor>91</transparentcolor></topform><windowheight>823</windowheight><windowwidth>1240</windowwidth><gridx>73</gridx><gridy>73</gridy><fielddefaults><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[barfield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="barfield" row="1" column="1"><datatype>i4</datatype><defaultvalue>3</defaultvalue><defaultstring>0</defaultstring><bgcolor>84</bgcolor><fgcolor>70</fgcolor><xleft>271</xleft><ytop>52</ytop><width>740</width><height>521</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><fgpattern>-1</fgpattern><growfrom>6</growfrom></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[boxtrim]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="boxtrim" row="1" column="1"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>490</width><height>177</height><designbias>4</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><gravity>17</gravity><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>7</charsperline><lines>1</lines><stringvalue><![CDATA[Box trim]]></stringvalue></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[buttonfield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="buttonfield" row="1" column="1"><datatype>i4</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>979</width><height>302</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><textlabel><![CDATA[Button]]></textlabel></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[controlbutton]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="controlbutton" row="1" column="1"><bgcolor>70</bgcolor><fgcolor>1</fgcolor><xleft>271</xleft><ytop>52</ytop><width>135</width><height>135</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>1</outlinestyle><outlinewidth>7</outlinewidth><optionmenu><bgcolor>2</bgcolor><fgcolor>1</fgcolor><designbias>8192</designbias><trimbias>16384</trimbias><updatebias>16384</updatebias><querybias>16384</querybias><readbias>16384</readbias><user1bias>16384</user1bias><user2bias>16384</user2bias><user3bias>16384</user3bias></optionmenu><popupalignment>0</popupalignment></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[ellipseshape]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="ellipseshape" row="1" column="1"><datatype>i4</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>823</width><height>281</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><gravity>17</gravity><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[entryfield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="entryfield" row="1" column="1"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>84</bgcolor><fgcolor>86</fgcolor><xleft>271</xleft><ytop>52</ytop><width>917</width><height>177</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>4</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><charsperline>14</charsperline><lines>1</lines></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[entryfield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="entryfield" row="1" column="1"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>84</bgcolor><fgcolor>86</fgcolor><xleft>271</xleft><ytop>52</ytop><width>896</width><height>313</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><hasscrollbar>1</hasscrollbar><charsperline>11</charsperline><lines>2</lines></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[extobjfield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="extobjfield" row="1" column="1"><datatype>integer</datatype><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>521</width><height>521</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><bgpattern>1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>4</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[flexibleform]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="flexibleform" row="1" column="1"><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>615</width><height>438</height><designbias>4</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><bgpattern>-1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><outlinewidth>0</outlinewidth><ismovebounded>0</ismovebounded><childfields><row xsi:type="boxtrim"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><width>167</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>2</charsperline><lines>1</lines><stringvalue><![CDATA[A]]></stringvalue></row><row xsi:type="freetrim"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>479</xleft><ytop>240</ytop><width>115</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinewidth>1</outlinewidth><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>1</charsperline><lines>1</lines><stringvalue><![CDATA[B]]></stringvalue></row><row_class>formfield</row_class></childfields></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[freetrim]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="freetrim" row="1" column="1"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>458</width><height>177</height><designbias>4</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><gravity>17</gravity><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>7</charsperline><lines>1</lines><stringvalue><![CDATA[Free trim]]></stringvalue></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[imagefield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="imagefield" row="1" column="1"><datatype>bitmapobject</datatype><isnullable>1</isnullable><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>552</width><height>385</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><displaypolicy>1</displaypolicy></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[imagetrim]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="imagetrim" row="1" column="1"><datatype>bitmapobject</datatype><isnullable>1</isnullable><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>1</fgcolor><xleft>271</xleft><ytop>52</ytop><width>240</width><height>240</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><image><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+69
+43:d:\hi_art\frame_editor_24mar94\ImagTrm3.BMP
+0
+1
+2
+0
+23
+23
+2
+0
+69
+r3007ffffc4000044003744001c44007f4400494400084403784401c84407f84
+40498440088441848443c48447e4844ff2845ffa847ffe847ffffcr300
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></image></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[listfield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="listfield" row="1" column="1"><datatype>integer</datatype><defaultvalue>3</defaultvalue><defaultstring>1</defaultstring><bgcolor>84</bgcolor><fgcolor>86</fgcolor><xleft>271</xleft><ytop>52</ytop><width>969</width><height>563</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><valuelist><choiceitems><row><enumdisplay>First Item</enumdisplay><enumtext>First Item</enumtext><enumvalue>1</enumvalue></row><row><enumdisplay>Second Item</enumdisplay><enumtext>Second Item</enumtext><enumvalue>2</enumvalue></row><row><enumdisplay>Third Item</enumdisplay><enumtext>Third Item</enumtext><enumvalue>3</enumvalue></row><row><enumdisplay>Fourth Item</enumdisplay><enumtext>Fourth Item</enumtext><enumvalue>4</enumvalue></row><row><enumdisplay>Fifth Item</enumdisplay><enumtext>Fifth Item</enumtext><enumvalue>5</enumvalue></row><row><enumdisplay>Sixth Item</enumdisplay><enumtext>Sixth Item</enumtext><enumvalue>6</enumvalue></row><row_class>choicedetail</row_class></choiceitems></valuelist><typeface>0</typeface><typesize>8</typesize><visiblerows>4</visiblerows></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[listviewfield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="listviewfield" row="1" column="1"><datatype>integer</datatype><bgcolor>84</bgcolor><fgcolor>86</fgcolor><xleft>271</xleft><ytop>52</ytop><width>521</width><height>521</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><bgpattern>1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><valuelist/><typeface>0</typeface><typesize>8</typesize><colattributes><row><columnwidth>1500</columnwidth><headertext>Column 1</headertext></row><row><columnwidth>1500</columnwidth><headertext>Column 2</headertext></row><row_class>listviewcolattr</row_class></colattributes><style>4</style><largeimageheight>32</largeimageheight><largeimagewidth>32</largeimagewidth><smallimageheight>16</smallimageheight><smallimagewidth>16</smallimagewidth></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[matrixfield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="matrixfield" row="1" column="1"><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>677</width><height>438</height><designbias>4</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><bgpattern>-1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><outlinewidth>0</outlinewidth><childfields><row xsi:type="freetrim" row="1" column="1"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>21</xleft><ytop>21</ytop><width>250</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>3</charsperline><lines>1</lines><stringvalue><![CDATA[One]]></stringvalue></row><row xsi:type="freetrim" row="1" column="2"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>323</xleft><ytop>21</ytop><width>333</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>5</charsperline><lines>1</lines><stringvalue><![CDATA[Three]]></stringvalue></row><row xsi:type="freetrim" row="2" column="1"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>21</xleft><ytop>240</ytop><width>260</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>4</charsperline><lines>1</lines><stringvalue><![CDATA[Two]]></stringvalue></row><row xsi:type="freetrim" row="2" column="2"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>354</xleft><ytop>240</ytop><width>260</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>4</charsperline><lines>1</lines><stringvalue><![CDATA[Four]]></stringvalue></row></childfields><collapsepolicy>3</collapsepolicy><columns>2</columns><rows>2</rows><childbottommargin>20</childbottommargin><childleftmargin>20</childleftmargin><childrightmargin>20</childrightmargin><childtopmargin>20</childtopmargin><separatorwidth>0</separatorwidth></row><row xsi:type="matrixfield" row="2" column="1"><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>646</ytop><width>688</width><height>448</height><designbias>4</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>2</fieldstyle><bgpattern>-1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><outlinewidth>0</outlinewidth><childfields><row xsi:type="freetrim" row="1" column="1"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>21</xleft><ytop>21</ytop><width>250</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>3</charsperline><lines>1</lines><stringvalue><![CDATA[One]]></stringvalue></row><row xsi:type="freetrim" row="1" column="2"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>333</xleft><ytop>21</ytop><width>333</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>5</charsperline><lines>1</lines><stringvalue><![CDATA[Three]]></stringvalue></row><row xsi:type="freetrim" row="2" column="1"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>21</xleft><ytop>250</ytop><width>260</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>4</charsperline><lines>1</lines><stringvalue><![CDATA[Two]]></stringvalue></row><row xsi:type="freetrim" row="2" column="2"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>365</xleft><ytop>250</ytop><width>260</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>4</charsperline><lines>1</lines><stringvalue><![CDATA[Four]]></stringvalue></row></childfields><collapsepolicy>3</collapsepolicy><columns>2</columns><rows>2</rows><childbottommargin>20</childbottommargin><childleftmargin>20</childleftmargin><childrightmargin>20</childrightmargin><childtopmargin>20</childtopmargin><separatorstyle>3</separatorstyle><separatorwidth>1</separatorwidth></row></childfields><columns>1</columns><rows>2</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[optionfield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="optionfield" row="1" column="1"><datatype>integer</datatype><defaultvalue>3</defaultvalue><defaultstring>1</defaultstring><bgcolor>84</bgcolor><fgcolor>86</fgcolor><xleft>271</xleft><ytop>52</ytop><width>1000</width><height>208</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><valuelist><choiceitems><row><enumdisplay>First Item</enumdisplay><enumtext>First Item</enumtext><enumvalue>1</enumvalue></row><row><enumdisplay>Second Item</enumdisplay><enumtext>Second Item</enumtext><enumvalue>2</enumvalue></row><row><enumdisplay>Third Item</enumdisplay><enumtext>Third Item</enumtext><enumvalue>3</enumvalue></row><row_class>choicedetail</row_class></choiceitems></valuelist><curenumindex>1</curenumindex><typeface>0</typeface><typesize>8</typesize></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[palettefield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="palettefield" row="1" column="1"><datatype>integer</datatype><defaultvalue>3</defaultvalue><defaultstring>1</defaultstring><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>500</width><height>750</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><valuelist><choiceitems><row><enumvalue>1</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+60
+64:/m/hound/fe6/wgl/front/apped/grant/src/apped/Icons/pal_icon1.xbm
+0
+1
+2
+0
+20
+20
+2
+0
+60
+R1190070000070000070R11c00
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumvalue>2</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+60
+64:/m/hound/fe6/wgl/front/apped/grant/src/apped/Icons/pal_icon2.xbm
+0
+1
+2
+0
+20
+20
+2
+0
+60
+ra0007000007000007R113000e00000e00000erb00
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumvalue>3</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+60
+64:/m/hound/fe6/wgl/front/apped/grant/src/apped/Icons/pal_icon3.xbm
+0
+1
+2
+0
+20
+20
+2
+0
+60
+r3001c00001c00001cr90070000070000070r80001c00001c00001c0r600
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumvalue>4</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+60
+64:/m/hound/fe6/wgl/front/apped/grant/src/apped/Icons/pal_icon4.xbm
+0
+1
+2
+0
+20
+20
+2
+0
+60
+r9000e07000e07000e07R113000e07000e07000e07ra00
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumvalue>5</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+60
+64:/m/hound/fe6/wgl/front/apped/grant/src/apped/Icons/pal_icon5.xbm
+0
+1
+2
+0
+20
+20
+2
+0
+60
+r3001c01c01c01c01c01c0r70070000070000070r7001c01c01c01c01c01c0r6
+00
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row><enumvalue>6</enumvalue><enumbitmap><obj_encoded><![CDATA[12:bitmapobject
+0
+1
+9
+60
+64:/m/hound/fe6/wgl/front/apped/grant/src/apped/Icons/pal_icon6.xbm
+0
+1
+2
+0
+20
+20
+2
+0
+60
+r3000e07000e07000e07r7000e07000e07000e07r7000e07000e07000e07r700
+0
+0
+0
+0
+0
+-1
+0
+0
+0
+0
+-1:
+-1:
+]]></obj_encoded></enumbitmap></row><row_class>choicedetail</row_class></choiceitems></valuelist><columns>2</columns></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[popupbutton]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="popupbutton" row="1" column="1"><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>1042</width><height>281</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><requirerealfield>1</requirerealfield><bgpattern>1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><outlinewidth>0</outlinewidth><typeface>0</typeface><typesize>8</typesize><textlabel><![CDATA[Popup Button]]></textlabel><optionmenu><bgcolor>2</bgcolor><fgcolor>1</fgcolor><designbias>8192</designbias><trimbias>16384</trimbias><updatebias>16384</updatebias><querybias>16384</querybias><readbias>16384</readbias><user1bias>16384</user1bias><user2bias>16384</user2bias><user3bias>16384</user3bias></optionmenu></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[radiofield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="radiofield" row="1" column="1"><datatype>integer</datatype><defaultvalue>3</defaultvalue><defaultstring>1</defaultstring><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>938</width><height>698</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><valuelist><choiceitems><row><enumdisplay>First Item</enumdisplay><enumtext>First Item</enumtext><enumvalue>1</enumvalue></row><row><enumdisplay>Second Item</enumdisplay><enumtext>Second Item</enumtext><enumvalue>2</enumvalue></row><row><enumdisplay>Third Item</enumdisplay><enumtext>Third Item</enumtext><enumvalue>3</enumvalue></row><row_class>choicedetail</row_class></choiceitems></valuelist><typeface>0</typeface><typesize>8</typesize><columns>1</columns></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[rectangleshape]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="rectangleshape" row="1" column="1"><datatype>i4</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>813</width><height>240</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><gravity>17</gravity><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy></row><row xsi:type="rectangleshape" row="2" column="1"><datatype>i4</datatype><defaultvalue>1</defaultvalue><bgcolor>2</bgcolor><fgcolor>1</fgcolor><xleft>271</xleft><ytop>427</ytop><width>833</width><height>271</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><gravity>17</gravity><fieldstyle>2</fieldstyle><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><linewidth>0</linewidth></row></childfields><columns>1</columns><rows>2</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[scrollbarfield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="scrollbarfield" row="1" column="1"><datatype>i4</datatype><defaultvalue>3</defaultvalue><defaultstring>0</defaultstring><bgcolor>25</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>1302</width><height>167</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><elevatorsize>20</elevatorsize><orientation>2</orientation></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[segmentshape]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="segmentshape" row="1" column="1"><bgcolor>2</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>844</width><height>292</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><gravity>17</gravity><bgpattern>2</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><point1x>271</point1x><point1y>52</point1y><point2x>1094</point2x><point2y>323</point2y></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[sliderfield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="sliderfield" row="1" column="1"><datatype>i4</datatype><defaultvalue>3</defaultvalue><defaultstring>0</defaultstring><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>1156</width><height>292</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><outlinewidth>0</outlinewidth><orientation>2</orientation><typeface>0</typeface><typesize>8</typesize></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[stackfield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="stackfield" row="1" column="1"><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>281</xleft><ytop>52</ytop><width>333</width><height>531</height><designbias>4</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><bgpattern>-1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinewidth>0</outlinewidth><childfields><row xsi:type="freetrim"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><width>250</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>3</charsperline><lines>1</lines><stringvalue><![CDATA[One]]></stringvalue></row><row xsi:type="freetrim"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><ytop>177</ytop><width>260</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>4</charsperline><lines>1</lines><stringvalue><![CDATA[Two]]></stringvalue></row><row xsi:type="freetrim"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><ytop>354</ytop><width>333</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>5</charsperline><lines>1</lines><stringvalue><![CDATA[Three]]></stringvalue></row><row_class>formfield</row_class></childfields><separatorcolor>72</separatorcolor><separatorstyle>-1</separatorstyle><separatorwidth>0</separatorwidth></row><row xsi:type="stackfield" row="2" column="1"><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>698</ytop><width>333</width><height>552</height><designbias>4</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>2</fieldstyle><bgpattern>-1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>72</outlinecolor><outlinewidth>1</outlinewidth><childfields><row xsi:type="freetrim"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><width>250</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>3</charsperline><lines>1</lines><stringvalue><![CDATA[One]]></stringvalue></row><row xsi:type="freetrim"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><ytop>188</ytop><width>260</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>4</charsperline><lines>1</lines><stringvalue><![CDATA[Two]]></stringvalue></row><row xsi:type="freetrim"><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>70</bgcolor><fgcolor>72</fgcolor><ytop>375</ytop><width>333</width><height>177</height><designbias>256</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>5</charsperline><lines>1</lines><stringvalue><![CDATA[Three]]></stringvalue></row><row_class>formfield</row_class></childfields><separatorcolor>72</separatorcolor><separatorstyle>-1</separatorstyle></row></childfields><columns>1</columns><rows>2</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[subform]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="subform" row="1" column="1"><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>958</width><height>365</height><designbias>4</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><bgpattern>-1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>87</outlinecolor><outlinestyle>4</outlinestyle><outlinewidth>0</outlinewidth><isresizebounded>1</isresizebounded></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[tabfolder]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="tabfolder" row="1" column="1"><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>979</width><height>781</height><designbias>4</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><isresizebounded>1</isresizebounded><tabbar><bgcolor>70</bgcolor><fgcolor>4</fgcolor><width>521</width><height>521</height><designbias>256</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>83</outlinecolor><isresizebounded>1</isresizebounded><typeface>0</typeface><typesize>8</typesize><selectedtypeface>0</selectedtypeface><selectedtypesize>8</selectedtypesize><normaltabcolor>70</normaltabcolor><normaltextcolor>72</normaltextcolor><selectedtabcolor>70</selectedtabcolor><selectedtextcolor>72</selectedtextcolor><tabbgcolor>70</tabbgcolor><tabfieldarray><row><bgcolor>70</bgcolor><fgcolor>72</fgcolor><width>521</width><height>521</height><designbias>256</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><bgpattern>1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><hastextlabel>1</hastextlabel><textlabel>Page1</textlabel></row><row><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>417</xleft><width>521</width><height>521</height><designbias>256</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><hastextlabel>1</hastextlabel><textlabel>Page 2</textlabel></row><row_class>tabfield</row_class></tabfieldarray></tabbar><tabpagearray><row><name>page1</name><bgcolor>70</bgcolor><fgcolor>72</fgcolor><ytop>208</ytop><width>969</width><height>563</height><designbias>256</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>87</outlinecolor><isresizebounded>1</isresizebounded><delaymkwidget>1</delaymkwidget></row><row><name>page2</name><bgcolor>70</bgcolor><fgcolor>72</fgcolor><ytop>208</ytop><width>969</width><height>563</height><designbias>256</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>87</outlinecolor><outlinewidth>0</outlinewidth><isresizebounded>1</isresizebounded><delaymkwidget>1</delaymkwidget></row><row_class>tabpage</row_class></tabpagearray></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[tablefield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="tablefield" row="1" column="1"><isarray>1</isarray><isnullable>1</isnullable><script><![CDATA[
+/*----------------------------------------------*/
+/* tablefield initialize */
+
+initialize =
+declare
+#   include _tfInitDecl
+enddeclare
+{
+#   include _tfInit
+}
+
+]]></script><bgcolor>70</bgcolor><fgcolor>1</fgcolor><xleft>292</xleft><ytop>52</ytop><width>823</width><height>885</height><designbias>4</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><bgpattern>-1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><colseparatorwidth>0</colseparatorwidth><rowseparatorwidth>0</rowseparatorwidth><columnsdisplayed>1</columnsdisplayed><hasheaderbuttons>1</hasheaderbuttons><numvisiblerows>4</numvisiblerows><updateops>2</updateops><queryops>2</queryops><tablebody><bgcolor>70</bgcolor><fgcolor>1</fgcolor><ytop>177</ytop><width>667</width><height>708</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>16</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinewidth>0</outlinewidth><childfields><row xsi:type="columnfield"><name>ef1</name><bgcolor>2</bgcolor><fgcolor>1</fgcolor><width>667</width><height>708</height><designbias>4</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>1</outlinestyle><outlinewidth>0</outlinewidth><separatorwidth>0</separatorwidth><protofield xsi:type="entryfield"><name>ef1</name><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>2</bgcolor><fgcolor>1</fgcolor><width>667</width><height>177</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><requirerealfield>1</requirerealfield><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>4</focusbehavior><outlinecolor>1</outlinecolor><outlinewidth>0</outlinewidth><typeface>0</typeface><typesize>8</typesize><charsperline>10</charsperline><lines>1</lines></protofield></row><row_class>formfield</row_class></childfields><orientation>2</orientation><separatorwidth>0</separatorwidth></tablebody><tableheader><bgcolor>70</bgcolor><fgcolor>1</fgcolor><width>667</width><height>177</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinewidth>0</outlinewidth><childfields><row xsi:type="buttonfield"><name>ef1_hdr</name><datatype>integer</datatype><bgcolor>70</bgcolor><fgcolor>1</fgcolor><width>625</width><height>135</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><requirerealfield>1</requirerealfield><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><textlabel><![CDATA[Ef1]]></textlabel><textalignment>1</textalignment><buttonstyle>3</buttonstyle></row><row_class>formfield</row_class></childfields><orientation>2</orientation><childgravity>10</childgravity><separatorwidth>0</separatorwidth></tableheader></row><row xsi:type="tablefield" row="2" column="1"><isarray>1</isarray><isnullable>1</isnullable><script><![CDATA[
+/*----------------------------------------------*/
+/* tablefield initialize */
+
+initialize =
+declare
+#   include _tfInitDecl
+enddeclare
+{
+#   include _tfInit
+}
+
+]]></script><bgcolor>70</bgcolor><fgcolor>1</fgcolor><xleft>271</xleft><ytop>1094</ytop><width>906</width><height>1135</height><designbias>4</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>2</fieldstyle><bgpattern>-1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinewidth>0</outlinewidth><colseparatorwidth>0</colseparatorwidth><rowseparatorcolor>86</rowseparatorcolor><columnsdisplayed>1</columnsdisplayed><controlbutton><name>field15_controlbutton</name><bgcolor>70</bgcolor><fgcolor>1</fgcolor><xleft>740</xleft><ytop>198</ytop><width>135</width><height>135</height><designbias>2</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>1</outlinestyle><outlinewidth>7</outlinewidth><optionmenu><bgcolor>2</bgcolor><fgcolor>1</fgcolor><designbias>16384</designbias><trimbias>16384</trimbias><updatebias>16384</updatebias><querybias>16384</querybias><readbias>16384</readbias><user1bias>16384</user1bias><user2bias>16384</user2bias><user3bias>16384</user3bias><childmenufields><row xsi:type="menubutton"><name>insertbefore</name><script><![CDATA[
+/*----------------------------------------------*/
+/* tablefield controlbutton menuitem Insert Before Current Row */
+
+on click =
+{
+#   include _tfcbInsClick
+}]]></script><bgcolor>2</bgcolor><fgcolor>1</fgcolor><designbias>16384</designbias><trimbias>16384</trimbias><updatebias>16384</updatebias><querybias>16384</querybias><readbias>16384</readbias><user1bias>16384</user1bias><user2bias>16384</user2bias><user3bias>16384</user3bias><focusbehavior>2</focusbehavior><textlabel>Insert Before Current Row</textlabel><speedkey>-13</speedkey></row><row xsi:type="menubutton"><name>deletecurrent</name><script><![CDATA[
+/*----------------------------------------------*/
+/* tablefield controlbutton menuitem Delete Current Row */
+
+on click =
+{
+#   include _tfcbDelClick
+}]]></script><bgcolor>2</bgcolor><fgcolor>1</fgcolor><designbias>16384</designbias><trimbias>16384</trimbias><updatebias>16384</updatebias><querybias>16384</querybias><readbias>16384</readbias><user1bias>16384</user1bias><user2bias>16384</user2bias><user3bias>16384</user3bias><focusbehavior>1</focusbehavior><textlabel>Delete Current Row</textlabel><speedkey>-12</speedkey></row><row xsi:type="menubutton"><name>deleteall</name><script><![CDATA[
+/*----------------------------------------------*/
+/* tablefield controlbutton menuitem Delete All Rows */
+
+on click =
+{
+#   include _tfcbDelAllClick
+}]]></script><bgcolor>2</bgcolor><fgcolor>1</fgcolor><designbias>16384</designbias><trimbias>16384</trimbias><updatebias>16384</updatebias><querybias>16384</querybias><readbias>16384</readbias><user1bias>16384</user1bias><user2bias>16384</user2bias><user3bias>16384</user3bias><focusbehavior>1</focusbehavior><textlabel>Delete All Rows</textlabel></row><row xsi:type="menubutton"><name>copytable</name><script><![CDATA[
+/*----------------------------------------------*/
+/* tablefield controlbutton menuitem Copy Table */
+
+initialize =
+{
+#   include _tfcbCopyTableInit
+}
+
+on click =
+{
+#   include _tfcbCopyTableClick
+}]]></script><bgcolor>2</bgcolor><fgcolor>1</fgcolor><designbias>16384</designbias><trimbias>16384</trimbias><updatebias>16384</updatebias><querybias>16384</querybias><readbias>16384</readbias><user1bias>16384</user1bias><user2bias>16384</user2bias><user3bias>16384</user3bias><focusbehavior>1</focusbehavior><textlabel>Copy Table...</textlabel></row><row_class>menufield</row_class></childmenufields></optionmenu><popupalignment>0</popupalignment></controlbutton><numvisiblerows>4</numvisiblerows><updateops>2</updateops><queryops>2</queryops><tablebody><bgcolor>70</bgcolor><fgcolor>1</fgcolor><ytop>375</ytop><width>729</width><height>740</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>16</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinewidth>1</outlinewidth><childfields><row xsi:type="columnfield"><name>ef1</name><bgcolor>84</bgcolor><fgcolor>86</fgcolor><width>729</width><height>740</height><designbias>4</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>1</outlinestyle><outlinewidth>0</outlinewidth><separatorcolor>86</separatorcolor><protofield xsi:type="entryfield"><name>ef1</name><datatype>varchar(100)</datatype><defaultvalue>1</defaultvalue><bgcolor>84</bgcolor><fgcolor>86</fgcolor><width>729</width><height>177</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><requirerealfield>1</requirerealfield><fieldstyle>0</fieldstyle><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>4</focusbehavior><outlinecolor>1</outlinecolor><outlinewidth>0</outlinewidth><typeface>0</typeface><typesize>8</typesize><charsperline>11</charsperline><lines>1</lines></protofield></row><row_class>formfield</row_class></childfields><orientation>2</orientation><separatorwidth>0</separatorwidth></tablebody><tableheader><bgcolor>70</bgcolor><fgcolor>72</fgcolor><ytop>177</ytop><width>729</width><height>177</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinewidth>1</outlinewidth><childfields><row xsi:type="freetrim"><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>260</xleft><width>208</width><height>177</height><designbias>4</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><outlinewidth>0</outlinewidth><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>3</charsperline><lines>1</lines><stringvalue><![CDATA[Ef1]]></stringvalue></row><row_class>formfield</row_class></childfields><orientation>2</orientation><childgravity>10</childgravity><separatorcolor>72</separatorcolor><separatorwidth>0</separatorwidth></tableheader><titletrim><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>83</xleft><width>583</width><height>177</height><designbias>4</designbias><trimbias>16</trimbias><updatebias>256</updatebias><querybias>256</querybias><readbias>256</readbias><user1bias>256</user1bias><user2bias>256</user2bias><user3bias>256</user3bias><requirerealfield>1</requirerealfield><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>3</focusbehavior><outlinecolor>1</outlinecolor><typeface>0</typeface><typesize>8</typesize><ismultiline>1</ismultiline><charsperline>9</charsperline><lines>1</lines><stringvalue><![CDATA[Table Field]]></stringvalue></titletrim></row></childfields><columns>1</columns><rows>2</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[togglefield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="togglefield" row="1" column="1"><datatype>integer</datatype><defaultvalue>3</defaultvalue><defaultstring>0</defaultstring><bgcolor>70</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>823</width><height>177</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><bgpattern>-1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>2</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><textlabel><![CDATA[Toggle Item]]></textlabel><isautosized>1</isautosized></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[treeviewfield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="treeviewfield" row="1" column="1"><datatype>integer</datatype><defaultvalue>1</defaultvalue><bgcolor>2</bgcolor><fgcolor>1</fgcolor><xleft>271</xleft><ytop>52</ytop><width>1063</width><height>1063</height><designbias>4</designbias><trimbias>256</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><bgpattern>1</bgpattern><bgdisplaypolicy>2</bgdisplaypolicy><focusbehavior>4</focusbehavior><outlinecolor>1</outlinecolor><outlinestyle>4</outlinestyle><typeface>0</typeface><typesize>8</typesize><hashorizontalscrollbar>1</hashorizontalscrollbar></row></childfields><columns>1</columns><rows>1</rows></row><row xsi:type="matrixfield"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><clienttext><![CDATA[viewportfield]]></clienttext><width>10417</width><height>10417</height><designbias>2</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><fieldstyle>0</fieldstyle><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><childfields><row xsi:type="viewportfield" row="1" column="1"><bgcolor>84</bgcolor><fgcolor>72</fgcolor><xleft>271</xleft><ytop>52</ytop><width>1010</width><height>708</height><designbias>4</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><gravity>17</gravity><bgpattern>-1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>87</outlinecolor><outlinestyle>4</outlinestyle><viewfield xsi:type="flexibleform"><bgcolor>2</bgcolor><fgcolor>1</fgcolor><xleft>21</xleft><ytop>21</ytop><width>1000</width><height>1000</height><designbias>256</designbias><trimbias>8</trimbias><updatebias>16</updatebias><querybias>16</querybias><readbias>32</readbias><user1bias>16</user1bias><user2bias>16</user2bias><user3bias>16</user3bias><bgpattern>1</bgpattern><focusbehavior>1</focusbehavior><outlinecolor>1</outlinecolor><outlinewidth>0</outlinewidth><ismovebounded>0</ismovebounded></viewfield></row></childfields><columns>1</columns><rows>1</rows></row><row_class>formfield</row_class></fielddefaults></COMPONENT><COMPONENT name="INSTRUCTIONS" xsi:type="scriptsource"><script><![CDATA[/*
+**	Userclass Generation
+*/
+Required vnode:
+	remotehost
+Required database (accessible using vnode):
+	Ingres demodb database, extended using ExtendDemodbDatabase
+Required components:
+	none
+Required included applications:
+	none
+Other requirements:
+	none
+		
+Demo:
+	w4gldev runimage workbench.img -Tall -/appflags profile=or62demos application=d201504_frequentflyer
+
+	Create and edit a userclass called User_profile
+	Choose Attributes | Insert | From Database Table
+		The Select a Database Table dialog appears
+	Click the "List Tables ..." button
+		The Table Selection dialog appears
+	Select the "user_profile" table and click OK
+	Tick the Trim prefix.. , the Capitalize .., and the Cascade.. options
+	Type "up_" as the prefix to trim
+	Click OK to start the generation process
+	Select "Yes to All" whenever a confirmation popup appears
+	Allow the generation to run to completion (the trace window stops adding new
+	lines)
+		The User_profile attributes table will list:
+		- attributes corresponding to each column in the user_profile database table
+		- two additional attributes (airport and flights) corresponding to tables
+		  with which the user_profile table has a key-based relationship
+		The Workbench Components panel will list:
+		- the user_profile userclass that you created initially
+		- 5 additional userclasses that have been automatically created (by the
+		  cascade facility), including the airport and flight userclasses needed
+		  as the datatypes of the relationship-derived attributes
+		 and 
+		Note that the userclass''s Queries attribute has also been populated with
+		fully-instantiated QueryObjects able to populate the business objects from
+		the database and accept changes, deletions and new records, and to list
+		business objects for the enduser to choose.
+		
+
+/*
+**	Display Generation
+*/
+Required vnode:
+	remotehost
+Required database (accessible using vnode):
+	Ingres demodb database, extended using ExtendDemodbDatabase
+Required components:
+	The userclasses created using the Userclass Generation demo:
+	- applying the userclass generator on remotehost::demodb, using user_profile
+	  as the seed userclass.
+Required included applications:
+	none
+Other requirements:
+	none
+		
+Demo:
+	w4gldev runimage workbench.img -Tall -/appflags profile=or62demos application=d201504_frequentflyer
+	
+	Create and edit User_profileDetails frame from the active_display frametemplate
+	Choose Insert | Display from User Class
+		The Select a User Class dialog appears
+	Select d201504_frequentflyer from the Application list
+	Select user_profile from the User Class list
+		Note that there are rich Advanced and Customize options to tune the
+		choice of fields to display, their properties, and the overall layout,
+		and which capabilities to include (interframe navigation, for example)
+	Click OK and wait for the display to be generated
+		The generated frame shows the userclass attributes as fields, grouped
+		into panels by their category (identity fields, location fields, contact
+		fields, etc), with object panels on the right hand side (Airport).
+		Tablefields are at the bottom, as pages of a tabfolder (most business objects
+		in the real world have several array attributes, not just one or none).
+		Field order is preserved, so that name fields and address fields are in
+		the right order.
+		The size of the frame is as close as possible to whatever size you
+		gave the Frame Editor.
+	Hit F5 to run the frame
+	Rightclick the Open (second) toolbar icon and choose the Selected Item option
+	Doubleclick the sample@ingres.com entry
+		The corresponding user is displayed
+		Note that the frame can be edited and the changes saved
+	Leftclick the Open (second) toolbar icon
+		All the users are selected, and the first one displayed
+	Click the Next (ninth, right-arrow) toolbar icon repeatedly
+		Each user in the set is displayed in turn
+	Click the Menu icon in the topright of the Airport panel and choose the Open
+	option
+		The generated Airport frame is displayed, populated with the airport
+		details, including the lists of arrivals and departures, both the scheduled
+		ones and the actual flights this user has taken
+		Note that the generation process is completely generic - you would need
+		to change the Airport frame tabs to Flight Arrivals, Flight Departures
+		Scheduled Arrivals, Scheduled Departures.
+
+
+/*
+**	Create demodb database (without extension)
+**
+**	Note: If you only have vnode access to the installation, you are unlikely to
+**	have II_SYSTEM\ingres\demo\data, which contains the demodb data and the
+**	recreatedemodb.bat file.
+**	Even if you do have the data folder, you will need to edit the bat file and
+**	probably the copy.in to prefix the database name with the vnode
+*/
+	Open the Ingres command window for the installation that the remotehost vnode
+	points to
+	>cd data
+	>recreatedemodb.bat >demodb.log
+		Any existing demodb database will be dropped
+		The demodb database will be created in the installation and populated.
+	>edit demodb.log
+		Any errors will be logged. If there are errors, correct the problem and
+		rerun recreatedemodb.bat
+	
+/*
+**	Extend demodb database for use with OpenROAD 6.2
+*/
+	w4gldev rundbapp remotehost::or62demos d201504_frequentflyer -cextenddemodbdatabase
+
+	Click the "Extend DemoDb" button
+		All the required additional tables, data and metadata will be added to
+		the demodb database
+
+/*
+**	Revert demodb database to the initial (Ingres) version
+*/
+	w4gldev rundbapp remotehost::or62demos d201504_frequentflyer -cextenddemodbdatabase
+
+	Click the "Revert DemoDb" button
+		All the tables, data and metadata added to demodb by the "Extend DemoDb"
+		option will be removed
+
+]]></script></COMPONENT><COMPONENT name="LongItemStore" xsi:type="classsource"><superclass>userobject</superclass><script><![CDATA[#define $BIGNUM		'100000000'
+
+initialize =
+declare
+	fd$					= varchar(32) not null default '\';
+	rc					= integer not null;
+
+	CallingFrame	= procedure returning FrameExec;
+enddeclare
+
+
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//							FILL METHODS
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+/*
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**	Prepare to apply a set of fill coordinates as a delayed userevent sequence 
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+method PrepareFill (
+
+	curframe	= FrameExec default null;
+	fld			= FormField default null;
+	pattern		= varchar(32) not null default 'none';
+	side		= integer not null;
+	width		= integer not null;
+	height		= integer not null;
+	duration	= integer not null default 1;
+	granularity	= integer not null default 1;
+	delay		= float4 not null;		//byref
+
+)=
+declare
+	string		= StringObject default null;
+	methodname	= varchar(32) not null;
+	patterns	= varchar(256) not null default
+		' nwse nesw spiral ';
+enddeclare
+{
+	if curframe is null then
+		curframe = CallingFrame();
+	endif;
+
+	if patterns not like Concat('% ' + pattern + ' %','') then
+		pattern = 'none';
+	endif;
+
+	if pattern = 'none' then
+		return null;
+	endif;
+
+	if side = 0 then
+		return null;
+	endif;
+
+	methodname = pattern + 'fill';
+	string = CurObject.:methodname(side=side, width=width, height=height);
+	delay = float4(duration)/float4(granularity);
+	return string;
+}
+
+
+/*
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**	Replace an area of bitmap applying a set of fill coordinates
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+method Fill (
+
+	string		= StringObject default null;
+	fld		= FormField default null;
+	image		= BitmapObject default null;
+	startpos	= integer not null;
+	chunksize	= integer not null;
+
+)=
+declare
+	endpos		= integer not null;
+	chunk		= StringObject default null;
+	bitmap		= BitmapObject default null;
+enddeclare
+{
+	if startpos = 0 then
+		startpos = 1;
+	endif;
+
+	chunk = string.ExtractString(startpos,chunksize);
+	endpos = chunksize;
+	while chunk.SubString(endpos,1) != ' ' do
+		endpos = endpos - 1;
+	endwhile;
+	chunk = chunk.ExtractString(1,endpos);
+	startpos = startpos+endpos;
+
+	/*
+	**	Display the pixels
+	*/
+	bitmap = fld.BgBitmap.ReplaceBitmap(
+		bitmap=image,
+		asnewobject=TRUE, coordlist=chunk);
+	if bitmap is not null then
+		fld.BgBitmap = bitmap;
+		fld.UpdBackground();
+	endif;
+
+	return startpos;
+}
+
+
+/*
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**	Define the coordinates for an angled fill
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+method	nwsefill(
+
+	side		= integer not null;
+	width		= integer not null;
+	height		= integer not null;
+
+)=
+{
+	return curobject.AngledFill(
+		side=side, width=width, height=height, type='nwse');
+}
+
+
+method	neswfill(
+
+	side		= integer not null;
+	width		= integer not null;
+	height		= integer not null;
+
+)=
+{
+	return curobject.AngledFill(
+		side=side, width=width, height=height, type='nesw');
+}
+
+
+
+method	angledfill(
+
+	type		= varchar(32) not null default 'nwse';
+	side		= integer not null;
+	width		= integer not null;
+	height		= integer not null;
+
+)=
+declare
+	signx			= integer not null default 1;
+	startx			= integer not null default 0;
+
+	string			= StringObject;
+	i				= integer not null default 0;
+	j				= integer not null;
+	k				= integer not null;
+	seg				= integer not null;
+	x				= integer not null;
+	y				= integer not null;
+	strings			= array of StringObject;
+	resultstring	= StringObject;
+	ct				= integer not null;
+	frags			= integer not null default 10;
+enddeclare
+{
+	if width = 0 then
+		width = side;
+	endif;
+	if height = 0 then
+		height = side;
+	endif;
+
+	if type = 'nwse' then
+		startx = 0;
+		signx = 1;
+	elseif type = 'nesw' then
+		startx = width;
+		signx = -1;
+	endif;
+
+seg = side/frags;
+for k = 1 to frags+1 do strings.InsertRow(); endfor;
+for k = 1 to frags+1 do
+	string = strings[k];
+	for i = i+1 to k*seg do
+		if i > side then endloop; endif;
+	
+		for j = 1 to i do
+			ct = ct + 1;
+			x = startx + signx*(i-j+1);
+			y = j;
+			if x <= 0 or x > width or y <= 0 or y > height then
+				continue;
+			endif;
+			string.ConcatVarchar(varchar(x) + ',' + varchar(y) + ' ');
+		endfor;
+	endfor;
+	i = i - 1;
+endfor;
+
+resultstring.Join(strings);
+
+return resultstring;
+}
+
+
+/*
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**	Define the coordinates for a spiral fill
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+method spiralfill(
+
+	side		= integer not null;
+	infl		= float not null default 1.20;
+
+)=
+declare
+	data		= array of $_ComponentName;
+	datum		= $_ComponentName default null;
+	rcur		= float4 not null;
+	rcurs		= array of FloatObject;
+	string		= StringObject;
+	xcenter		= integer not null;
+	ycenter		= integer not null;
+	i		= integer not null;
+	j		= integer not null;
+	x		= integer not null;
+	y		= integer not null;
+	tan		= float4 not null default 0;
+enddeclare
+{
+	xcenter = side/2;
+	ycenter = side/2;
+	i = 1;
+	rcur = 1;
+	while rcur < sqrt(xcenter**2+ycenter**2) do
+		rcurs[rcurs.LastRow+1].Value = rcur;
+		rcur = rcur * infl;
+	endwhile;
+
+	for x = 1 to side do
+		for y = 1 to side do
+			if x = xcenter and y = ycenter then continue; endif;
+			data.InsertRow(rownumber=i);
+			datum = data[i];
+			datum.x = x-xcenter;
+			datum.y = y-ycenter;
+			datum.r = sqrt(datum.x**2+datum.y**2);
+
+			for j = 1 to rcurs.LastRow do
+				if datum.r >= rcurs[j].Value then continue; endif;
+				rcur = rcurs[j-1].Value;
+				endloop;
+			endfor;
+
+			datum.rsub = datum.r - rcur;
+
+			if datum.y != 0 then
+				tan = float4(datum.x)/float4(datum.y);
+			else
+				tan = $BIGNUM;
+			endif;
+	
+			datum.theta = atan(tan);
+			i = i + 1;
+		endfor;
+	endfor;
+
+	data.Sort(r=AS_ASC, theta=AS_ASC, rsub=AS_ASC);
+
+	for i = 1 to data.LastRow do
+		string.ConcatVarchar(varchar(data[i].x+xcenter) + ',' + varchar(data[i].y+ycenter) + ' ');
+	endfor;
+
+	return string;	
+}
+
+
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//							LONGITEM STORE METHODS
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+/*
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**	Prepare and add an item to the store
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+method StoreLongItem(
+
+	store			= SourceObject default null;
+	longitem		= LongByteObject default null;
+	itemname		= varchar(256) not null;
+	type			= varchar(32) not null default 'images';
+
+)=
+declare
+	indx			= integer not null;
+	list			= ChoiceList default null;
+	i				= integer not null;
+	replace			= integer not null default FALSE;
+enddeclare
+{
+	if store is null or longitem is null then
+		return PU_NONE;
+	endif;
+
+	/*
+	**	Access the item store (create it if necessary)
+	*/
+	indx = curobject.OpenItemStore(store=store, type=type);
+	list = store.Extension[indx];
+
+	/*
+	**	Ensure there is a unique keyname for this image
+	*/
+	if itemname = '' then
+		itemname = curobject.NameFromFilehandle(filehandle=longitem.FileHandle);		
+	endif;
+
+	for i = 1 to 2 do
+		if itemname != '' and list.IndexByText(textvalue=itemname) != 0 then
+			rc = curmethod.ConfirmPopup(
+				messagetext='This will replace the existing item called ' + itemname +
+				'. Click OK to proceed, Cancel to leave the item in place');
+			if rc = PU_OK then
+				replace = TRUE;
+				endloop;
+			endif;
+
+			itemname = '';
+		endif;
+
+		if i = 2 then
+			endloop;
+		endif;
+
+		if itemname = '' then
+				itemname = prompt 'Please provide a name for this image (leave blank to cancel)';
+			if itemname = '' then
+				return PU_CANCEL;
+			endif;
+		endif;
+	endfor;
+
+			
+	/*
+	**	Add the item to the store
+	*/
+	rc = curobject.AddItemToStore(
+		storelist=list, itemname=itemname, longitem=longitem, replace=replace);
+
+	return rc;
+}
+
+
+/*
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**	Add a prepared item to the store
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+method AddItemToStore(
+
+	storelist		= ChoiceList default null;
+	itemname		= varchar(256) not null;
+	longitem		= LongByteObject default null;
+	replace			= integer not null default FALSE;
+	
+)=
+declare
+	indx			= integer not null default 0;
+	store#			= StringHashTable default null;
+	bit64			= StringObject;
+enddeclare
+{
+	store# = storelist.ClientData;
+	rc = store#.InsertObject(key=itemname, object=longitem);
+	if rc = ER_OK then
+		if replace = TRUE then
+			indx = storelist.IndexByText(textvalue=itemname);
+		endif;
+		if indx = 0 then
+			indx = storelist.AddItem(
+				enumvalue=storelist.ChoiceItems.LastRow+1,
+				textvalue=itemname,
+				displayvalue=itemname,
+				bitmapvalue=NULL);
+		endif;
+		rc = bit64.ConvertFromBinary(binary=longitem, format=EF_BASE64);
+		if rc = ER_OK then
+			storelist.ChoiceItems[indx].EnumSubText[1] = bit64;
+		endif;
+	endif;
+
+	return indx;
+}
+	
+
+/*
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**	Get the choicelist of stored items, with the items attached
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+method ListStoredItems(
+
+	store	= SourceObject default null;
+	type	= varchar(32) not null default 'images';
+
+)=
+declare
+	list	= ChoiceList;
+	indx	= integer not null;
+enddeclare
+{
+	/*
+	**	Access the index of entries in the imagestore
+	**	(this also ensures it is up to date)
+	*/
+	indx = curobject.OpenItemStore(store=store, type=type);
+	list = store.Extension[indx];
+
+	/*
+	**	Return list and store (as the list's clientdata)
+	*/
+	return list;
+}
+
+
+/*
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**	Open a store of objects
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**
+**	Objects like longbyte objects must be converted to base64 and stored as
+**	string objects.
+**	Note that the hash key is varchar, converted from the EnumText nvarchar. This
+**	is important: if the key used for insert is an nvarchar, but the key
+**	subsequently used for a find is varchar, it fails, but only the first
+**	time the store is accessed.
+*/
+method OpenItemStore (
+
+	store		= SourceObject default null;
+	type		= varchar(32) not null default 'images';
+
+)=
+declare
+	indx		= integer not null;
+	itemlist	= ChoiceList;
+	extlist		= ChoiceList default null;
+	citems		= array of ChoiceDetail default null;
+	store#		= StringHashTable;
+	indexkey	= varchar(32) not null;
+	i			= integer not null;
+	bit64		= StringObject default null;
+	longitem	= LongByteObject default null;
+	name		= varchar(256) not null;
+enddeclare
+
+{
+	indexkey = 'storeindex_' + type;
+
+	/*
+	**	Return the store ..if it already exists
+	**	(may need to repopulate it first, if first use of the session,
+	**	since hashtable contents are not saved (the table itself is ...)
+	*/
+	indx = Int4(store.GetTagText(tag=indexkey));
+
+	if indx != 0 and indx <= store.Extension.LastRow then
+
+		/* switch to a fresh choicelist for the extension
+		**   (probably only need this when repopulating)
+		*/
+		extlist = store.Extension[indx];	//raise the usecount
+		itemlist.ClientData = extList.ClientData;
+		citems = extlist.ChoiceItems;
+		for i = 1 to citems.LastRow do
+			itemlist.ChoiceItems[i] = citems[i];
+		endfor;
+		store.Extension[indx] = itemlist;
+
+		if itemlist.ClientData is null then
+			itemlist.ClientData = store#;
+		endif;
+
+		store# = itemlist.ClientData;
+
+		/*
+		**	Repopulate the store if necessary
+		*/
+		if store#.ObjectCount = 0 then
+			/*
+			**	Insert a dummy first entry - find sometimes misses entry number 1
+			*/
+			citems = itemlist.ChoiceItems;
+			for i = 1 to citems.LastRow do
+				longitem = LongByteObject.Create();
+				if citems[i].EnumSubText.LastRow = 1 then
+					bit64 = citems[i].EnumSubText[1];
+					rc = longitem.ConvertFromString(string=bit64, format=EF_BASE64);
+				endif;
+				if rc = ER_OK then
+					name = citems[i].EnumText;
+					rc = store#.InsertObject(key=name, object=longitem);
+				endif;
+			endfor;
+		endif;
+
+		return indx;
+	endif;
+
+	/*
+	**	Create the store ..otherwise (if it doesnt already exist)
+	*/
+	indx = store.Extension.LastRow+1;
+	store.Extension[indx] = itemlist;
+	itemlist.ClientData = store#;
+	store.SetTaggedValue(tag=indexkey, textvalue = varchar(indx));
+
+	store.Extension[indx] = itemlist;
+
+	return indx;
+}
+
+
+/*
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**	Load a longbyteobject-stored image into a bitmap object
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+method LoadLongImage(
+
+	bitmap		= BitmapObject default null;
+	list		= ChoiceList default null;
+	name		= varchar(256) not null;
+
+)=
+declare
+	store#		= StringHashTable default null;
+	longimage	= LongByteObject default null;
+enddeclare
+{
+	store# = list.ClientData;
+	longimage = store#.Find(key=name);
+
+	if longimage is null then
+		bitmap.ErrorStatus = ER_ROWNOTFOUND;
+		return bitmap.ErrorStatus;
+	endif;
+	bitmap.LoadLong(object=longimage);
+
+	return bitmap.ErrorStatus;
+}
+
+
+/*
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**	Derive a simple item-name from a filehandle
+**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+method NameFromFileHandle(
+
+	filehandle		= varchar(256) not null;
+	filestring		= StringObject default null;
+
+)=
+declare
+	string			= StringObject;
+enddeclare
+{
+	if filestring is not null then
+		string = filestring;
+	elseif filehandle != '' then
+		string.Value = filehandle;
+	endif;
+
+	string = string.Split(delimiter=fd$, exactrows=2, backwards=TRUE)[1];
+	if string.Value like '%.%' then
+		return string.Split(delimiter='.', exactrows=2, backwards=TRUE)[2].Value;
+	else
+		return string.Value;
+	endif;
+}
+
+
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//							PROCEDURES
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+procedure CallingFrame(
+
+)=
+declare
+	parent		= ProcExec default null;
+enddeclare
+{
+	parent = curprocedure.Parent;
+	while parent.IsA(class=FrameExec) = FALSE do
+		parent = parent.Parent;
+	endwhile;
+	return parent;
+}
+]]></script><attributes><row><displayname>r</displayname><datatype>float</datatype></row><row><displayname>rsub</displayname><datatype>integer</datatype></row><row><displayname>theta</displayname><datatype>float</datatype></row><row><displayname>x</displayname><datatype>integer</datatype></row><row><displayname>y</displayname><datatype>integer</datatype></row><row_class>attributeobject</row_class></attributes><methods><row><displayname>angledfill</displayname><datatype>stringobject</datatype><isnullable>1</isnullable></row><row><displayname>spiralfill</displayname><datatype>stringobject</datatype><isnullable>1</isnullable></row><row><displayname>Fill</displayname><datatype>integer</datatype></row><row><displayname>PrepareFill</displayname><datatype>stringobject</datatype><isnullable>1</isnullable></row><row><displayname>ListStoredItems</displayname><datatype>choicelist</datatype><isnullable>1</isnullable></row><row><displayname>StoreLongItem</displayname><datatype>integer</datatype></row><row><displayname>OpenItemStore</displayname><datatype>integer</datatype></row><row><displayname>AddItemToStore</displayname><datatype>integer</datatype></row><row><displayname>LoadLongImage</displayname><datatype>integer</datatype></row><row><displayname>NameFromFilehandle</displayname><datatype>varchar(256)</datatype></row><row><displayname>neswfill</displayname><datatype>stringobject</datatype><isnullable>1</isnullable></row><row><displayname>nwsefill</displayname><datatype>stringobject</datatype><isnullable>1</isnullable></row><row_class>methodobject</row_class></methods></COMPONENT></OPENROAD>
