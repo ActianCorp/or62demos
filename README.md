@@ -7,10 +7,10 @@ Welcome to OpenROAD 6.2.0 Demos and Presentations Distribution. This readme cont
 
 |Presentation|Date Given|Presenter|
 |:--- | --- |:--- |
-|[OpenROAD6.2NewFeatures-Overview.pdf](https://github.com/durwinwright/or62demos/blob/master/presentations/OpenROAD6.2NewFeatures-Overview.pdf)|28-May-15|[Sean Thrower](mailto:sean.thrower@actian.com)|
-|[OpenROAD6 2New Client-Server and Multi-Tier Deployment.pdf](https://github.com/durwinwright/or62demos/blob/master/presentations/OpenROAD6%202New%20Client-Server%20and%20Multi-Tier%20Deployment.pdf)|11-Jun-15|[Durwin Wright](mailto:durwin.wright@actian.com)|
-|[OpenROAD6.2NewFeatures-GenericMechanisms_I.pdf](https://github.com/durwinwright/or62demos/blob/master/presentations/OpenROAD6.2NewFeatures-GenericMechanisms_I.pdf)|18-Jun-15|[Sean Thrower](mailto:sean.thrower@actian.com)|
-|[OpenROAD6.2NewFeatures-GenericMechanisms_II.pdf](https://github.com/durwinwright/or62demos/blob/master/presentations/OpenROAD6.2NewFeatures-GenericMechanisms_II.pdf)|25-Jun-15|[Sean Thrower](mailto:sean.thrower@actian.com)|
+|OpenROAD6.2NewFeatures-Overview.pdf|28-May-15|[Sean Thrower](mailto:sean.thrower@actian.com)|
+|OpenROAD6 2New Client-Server and Multi-Tier Deployment.pdf|11-Jun-15|[Durwin Wright](mailto:durwin.wright@actian.com)|
+|OpenROAD6.2NewFeatures-GenericMechanisms_I.pdf|18-Jun-15|[Sean Thrower](mailto:sean.thrower@actian.com)|
+|OpenROAD6.2NewFeatures-GenericMechanisms_II.pdf|25-Jun-15|[Sean Thrower](mailto:sean.thrower@actian.com)|
 
 #### 1.2 Streaming Audio for Presentations on Youtub
 
