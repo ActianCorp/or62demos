@@ -3,14 +3,14 @@
 ## 1.0 Welcome
 Welcome to OpenROAD 6.2.0 Demos and Presentations Distribution. This readme contains information about operating system support, system requirements, installation considerations, general considerations, documentation, and contacting Actian Technical Support.
 
-#### 1.1 Presentations in PDF format on GitHub
+#### 1.1 Presentations in PDF format on Actian.Com
 
   * 28th May 2015 [Sean Thrower](mailto:sean.thrower@actian.com) [**What's New in OpenROAD 6.2 Overview presentation**](http://wwwcdn2.actian.com/wp-content/uploads/2015/09/OpenROAD6.2NewFeatures-Overview.pdf)
   * 11th June 2015 [Durwin Wright](mailto:durwin.wright@actian.com) [**OpenROAD 6.2 - Loadnrun presentation**](http://wwwcdn2.actian.com/wp-content/uploads/2015/09/OpenROAD6-2New-Client-Server-and-Multi-Tier-Deployment1.pdf)
   * 18th June 2015 [Sean Thrower](mailto:sean.thrower@actian.com) [**OpenROAD 6.2 - New Features in Detail part 1 of 2, Developers deeper dive (part 1) into new features presentation**](http://wwwcdn2.actian.com/wp-content/uploads/2015/09/OpenROAD6.2NewFeatures-GenericMechanisms_I.pdf)
   * 25th June 2015 [Sean Thrower](mailto:sean.thrower@actian.com) [**OpenROAD 6.2 - New Features in Detail part 2 of 2, Developers deeper dive (part 2) into new features**](http://wwwcdn2.actian.com/wp-content/uploads/2015/09/OpenROAD6.2NewFeatures-GenericMechanisms_II.pdf)
 
-#### 1.2 Streaming Audio for Presentations on Youtub
+#### 1.2 Streaming Audio for Presentations on Youtube
 
   * 28th May 2015 [Sean Thrower](mailto:sean.thrower@actian.com) [**What's New in OpenROAD 6.2 Overview presentation**](https://www.youtube.com/watch?v=L74IcFCBWP8)
   * 11th June 2015 [Durwin Wright](mailto:durwin.wright@actian.com) [**OpenROAD 6.2 - Loadnrun presentation**](https://www.youtube.com/watch?v=69ubVMOMR70)
