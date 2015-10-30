@@ -38,7 +38,7 @@ For complete information about all Actian products and the platforms and operati
 Disk space requirements for Windows systems are as follows:
 
     System Configuration      Space Required
-    or562demos database       50 Mb
+    or62demos database        50 Mb
     Presentations             21 Mb
 
 ### 3.2 Ingres Version
@@ -48,14 +48,14 @@ This version of OpenROAD can be installed into an existing 32-bit Ingres install
 The unloaddb does not support Enterprise Access.  An Ingres DBMS must be used to reload the database.
 
 ## 4.0 Using reload.bat
-Install the or62demos database using the reload.batscript.
+Install the or62demos database using the `reload.bat` script.
 
 To install OpenROAD
 
 1. Before you install the or62demos database do the following
     * Create a vnode called **remotehost** that will be needed by the or62demos applications
-    * Create the **remotehost::or62demkos** database
-    * Confirm that the command **sql remotehost::or62demkos** can be successfully used to access the database.
+    * Create the **remotehost::or62demos** database
+    * Confirm that the command **sql remotehost::or62demos** can be successfully used to access the database.
     * Install the latest OR 6.2 Patch.  These demos have been tested with patch **p14811**.  This patch (or a later one can be obtained from Actian ESD).  If no patch is installed, then crashes in the OpenROAD 6.2 runtime will happen.
 2. Unzip the file **openroad-6.20.15049-win-x86-p14865-a.zip** into temp directory, for example, **c:\temp**.
 3. An **openroad-6.20.15049-win-x86-or62demos_install-a** directory will be created in this temp location. For example:
@@ -111,7 +111,7 @@ If no parameter is supplied to the reload.bat script then database being reloade
 * Resource files needed to run by the *SetupCountyMap* component of the *D201504_ImageMapping* 4GL application.
 
 ### 5.1 Availability of additional demo source
-The **or62demos** database is contains the Videos and Airline database tables.  It is not necessary to load this data into the or62demoks database.
+The **or62demos** database is contains the Videos and Airline database tables.  It is not necessary to load this data into the or62demos database.
 
 #### 5.1.1 Videos Database
 Demobuilder can be used to load the Videos database.  The source code for Demobuilder is available from GitHub.
@@ -253,7 +253,7 @@ Many of the or62demos applications have an *INSTRUCTIONS* component that describ
                                 (75% opacity).
                 
                 Demo:
-                        w4gldev runimage workbnch.img -Tall -/appflags profile=or62demos application=d201504_bitmappedbkgfields component=bitmappedbkg_opacity_transparenc command=openscript
+                        w4gldev runimage workbench.img -Tall -/appflags profile=or62demos application=d201504_bitmappedbkgfields component=bitmappedbkg_opacity_transparenc command=openscript
                                 Note that the frame background displays a satellite image of the world.
                                 Note that there is a buttonfield overlaying the background, but that field
                                 initially is FP_CLEAR and has no text, so you cannot see it.
